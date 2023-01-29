@@ -1,0 +1,37 @@
+.App{
+  height: 100vh;
+  padding: 0 100px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+img{
+  width: 200px;
+  height: 300px;
+  padding-top: 2em;
+  object-fit: cover;
+} 
+
+.ksiazka{
+  flex:1;
+  display:flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+
+}
+
+
+button {
+  font-size: medium;
+  padding: 3px 6px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
